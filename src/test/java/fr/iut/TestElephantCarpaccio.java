@@ -7,7 +7,7 @@ import org.junit.Test;
 public class TestElephantCarpaccio {
 
 	@Test 
-	public void uneChevre() {
+	public void unChevre() {
 		Panier panier1Item = new Panier(1,0);
 		assertTrue(199.98 == panier1Item.getPrice());
 	}
